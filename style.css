@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+#todo-form{
+    padding: 24px;
+    box-shadow: 0 0 6px rgb(179, 176, 176);
+    border-radius: 8px;
+    margin: 48px 0 20px;
+}
+#todo-input{
+    width: 100%;
+    font-size: 24px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+#Main-container{
+    width: 500px;
+    margin: 0% auto;
+}
+.todo-card{
+    padding: 24px;
+    box-shadow: 0 0 6px rgb(179, 176, 176);
+    border-radius: 8px;
+    margin: 16px 0px;
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo-message{
+    margin: 0px;
+}
+.todo-time{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    margin: 0%;
+}
+.icon{
+    margin-left: 16px;
+    cursor: pointer;
+}
+#topbar{
+    width: 100%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    box-shadow: 0 0 2px 2px #ccc;
+}
+.login-bar{
+    text-decoration: none;
+    font-size: 18PX;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: black;
+    background-color: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+#post-login-view{
+    display: flex;
+    align-items: center;
+    display: none;
+}
+#post-login-view h2{
+    margin: 0;
+}
+#login-btn{
+    margin-left: 24px;
+    text-decoration: none;
+    font-size: 18PX;
+    font-weight: 600;
+    color: black;
+    background-color: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
